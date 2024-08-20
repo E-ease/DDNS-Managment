@@ -8,7 +8,7 @@ import json
 API_KEY = ""
 API_EMAIL = "" 
 # zone id goes in the labeled location
-API_GET_URL = "https://api.cloudflare.com/client/v4/zones{ZONE_ID}/dns_records"
+API_GET_URL = "https://api.cloudflare.com/client/v4/zones/{ZONE_ID}/dns_records"
 
 headers = {
     "Content-Type": "application/json",
